@@ -11,3 +11,76 @@ body {
     height: 3000px;
     font-family: "Poppins", sans-serif;
 }
+/* Common */
+h1,
+h2 {
+    font-family: "Sen", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 118px;
+    height: 50px;
+    background: #171100;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    background: #fffcf4;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.header .navbar .logo {
+    width: 85px;
+    height: 34px;
+}
+
+.header ul {
+    display: flex;
+    margin-left: auto;
+    gap: 42px;
+}
+
+.header ul li a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.header ul li a:hover {
+    color: #171100;
+    text-decoration: underline;
+}
+
+.header .btn {
+    margin-left: 70px;
+    min-width: 144px;
+    font-size: 1.6rem;
+    line-height: 50px;
+}
+
+.header .btn:hover {
+    opacity: 0.9;
+}
