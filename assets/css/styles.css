@@ -84,3 +84,149 @@ a {
 .header .btn:hover {
     opacity: 0.9;
 }
+
+/* Hero */
+.hero-wrap {
+    padding: 64px 0 65px;
+    background: #fffcf4;
+}
+
+.hero-wrap .hero-img {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* img-block */
+.hero-wrap .img-block {
+    position: relative;
+}
+
+.hero-wrap .list-courses {
+    position: absolute;
+    width: 270px;
+    height: 244px;
+    background: #ffffff;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    bottom: 48px;
+    right: -100px;
+}
+
+.hero-wrap .list-courses .column {
+    padding: 24px 0 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    height: 100%;
+}
+.hero-wrap .list-courses .courses-item {
+    margin-left: 16px;
+}
+
+.hero-wrap .list-courses .icon {
+    width: 48px;
+    height: 48px;
+}
+
+.hero-wrap .list-courses h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.76;
+    color: #171100;
+}
+
+.hero-wrap .list-courses span {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.hero-wrap .content {
+    display: flex;
+}
+
+.hero-wrap .info {
+    width: 470px;
+    margin: 64px 0 0 230px;
+}
+
+.hero-wrap .sub-title {
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.hero-wrap .desc {
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+
+.hero-wrap .row {
+    display: flex;
+    align-items: center;
+}
+
+.hero-wrap .hero-cta {
+    margin-top: 38px;
+}
+
+.hero-wrap .btn {
+    width: 180px;
+    height: 64px;
+    background: #ffb900;
+    color: #fff;
+    border-radius: 32px;
+    font-size: 18px;
+    line-height: 64px;
+}
+
+.hero-wrap .icon {
+    margin-left: 28px;
+    padding: 13px 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+}
+
+.hero-wrap .link {
+    margin-left: 14px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.hero-wrap .row-engagement {
+    margin-top: 48px;
+}
+
+.hero-wrap .engagement {
+    margin-top: 8px;
+    display: flex;
+    gap: 28px;
+}
+
+.hero-wrap .qty {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 1.23;
+    color: #171100;
+}
+
+.hero-wrap .row-engagement .desc {
+    margin-top: 48px;
+}
+
+.hero-wrap .row-engagement span {
+    margin-left: 18px;
+}
