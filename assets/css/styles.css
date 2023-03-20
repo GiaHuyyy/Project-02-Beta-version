@@ -10,7 +10,7 @@ body {
     font-size: 1.6rem;
     height: 3000px;
     font-family: "Poppins", sans-serif;
-    text-rendering: optimizeSpeed;/* Tối ưu tốc độ hiển thị hình ảnh */
+    text-rendering: optimizeSpeed; /* Tối ưu tốc độ hiển thị hình ảnh */
 }
 /* Common */
 h1,
@@ -341,4 +341,69 @@ a {
 
 .popular-courses .item:first-child .btn {
     background: #ffb900;
+}
+
+/* Citation */
+.citation {
+    margin-top: 200px;
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.citation .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.citation .avatar {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+}
+
+.citation .name {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+    white-space: nowrap;
+}
+
+.citation .info span {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+
+.citation .other span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+}
+
+.citation .other span:nth-child(2) {
+    background: #ffb900;
+}
+
+.citation .desc {
+    position: relative;
+    width: 770px;
+}
+
+.citation .desc img {
+    position: absolute;
+}
+
+.citation .desc p {
+    margin: 28px 0 0 30px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
 }
