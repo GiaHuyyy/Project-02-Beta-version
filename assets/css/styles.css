@@ -8,7 +8,6 @@ html {
 
 body {
     font-size: 1.6rem;
-    height: 6000px;
     font-family: "Poppins", sans-serif;
     text-rendering: optimizeSpeed; /* Tối ưu tốc độ hiển thị hình ảnh */
 }
@@ -41,8 +40,10 @@ a {
     color: #ffffff;
 }
 
-.btn:hover {
-    opacity: 0.9;
+.btn:hover,
+.footer-right .list a:hover,
+.footer-left .social a:hover {
+    opacity: 0.8;
 }
 
 .mark {
@@ -524,7 +525,6 @@ a {
     margin-top: 55px;
     display: flex;
     gap: 30px;
-    list-style: none;
     border-radius: 16px;
 }
 
@@ -581,7 +581,7 @@ a {
 }
 
 .blog .item:first-child .btn {
-    background: #FFB900;
+    background: #ffb900;
 }
 
 .blog .other {
@@ -595,5 +595,92 @@ a {
 
 .blog .other .mark:first-child,
 .blog .other .mark:last-child {
-    background: #5F5B53;
+    background: #5f5b53;
+}
+/* Footer */
+.footer {
+    padding: 96px 0 28px;
+    background: #2e2100;
+}
+.footer .body {
+    display: flex;
+}
+
+/* Footer left */
+.footer-left .desc {
+    margin-top: 18px;
+    width: 267px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer-left .social {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-right {
+    margin-left: 145px;
+    display: flex;
+    gap: 130px;
+}
+
+/* Footer right */
+.footer-right .sub-title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.footer-right .separate {
+    margin-top: 14px;
+    width: 130px;
+    height: 1px;
+    background: #59554b;
+}
+
+.footer-right .list {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-right .list a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+    white-space: nowrap;
+}
+
+.footer-right .item:last-child .list a {
+    white-space: normal;
+}
+
+.footer-right .list b {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.footer .separate-body {
+    margin-top: 38px;
+    height: 1px;
+    background: #59554b;
+}
+
+.footer .footer-copyright p {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #807d74;
 }
