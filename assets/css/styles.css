@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -9,7 +14,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    text-rendering: optimizeSpeed; /* Tối ưu tốc độ hiển thị hình ảnh */
+    text-rendering: optimizeSpeed; /* Tối ưu tốc độ hiển thị */
 }
 /* Common */
 h1,
@@ -54,15 +59,26 @@ a {
     border-radius: 50%;
 }
 
+#pricing,
+#courses {
+    scroll-margin-top: 100px;
+}
+
 /* Header */
 .header {
     background: #fffcf4;
 }
 
+.header.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+
 .header .navbar {
     display: flex;
     align-items: center;
-    padding-top: 36px;
+    padding: 36px 0 8px;
 }
 
 .header .navbar .logo {
@@ -73,10 +89,10 @@ a {
 .header ul {
     display: flex;
     margin-left: auto;
-    gap: 42px;
 }
 
 .header ul li a {
+    padding: 8px 21px;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.75;
@@ -89,7 +105,7 @@ a {
 }
 
 .header .btn {
-    margin-left: 70px;
+    margin-left: 49px;
     min-width: 144px;
     font-size: 1.6rem;
     line-height: 50px;
@@ -190,7 +206,7 @@ a {
 }
 
 .hero-wrap .btn {
-    width: 180px;
+    min-width: 180px;
     height: 64px;
     background: #ffb900;
     color: #fff;
@@ -467,7 +483,7 @@ a {
 
 .review .btn {
     margin-top: 32px;
-    width: 137px;
+    min-width: 137px;
     font-size: 1.6rem;
     background: #ffb900;
     border-radius: 26px;
