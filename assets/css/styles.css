@@ -8,7 +8,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    height: 3000px;
+    height: 4000px;
     font-family: "Poppins", sans-serif;
     text-rendering: optimizeSpeed; /* Tối ưu tốc độ hiển thị hình ảnh */
 }
@@ -39,6 +39,10 @@ a {
     line-height: 50px;
     text-align: center;
     color: #ffffff;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
 
 /* Header */
@@ -80,10 +84,6 @@ a {
     min-width: 144px;
     font-size: 1.6rem;
     line-height: 50px;
-}
-
-.header .btn:hover {
-    opacity: 0.9;
 }
 
 /* Hero */
@@ -406,4 +406,85 @@ a {
     font-size: 2.6rem;
     line-height: 1.54;
     color: #ffffff;
+}
+
+/* Review */
+.review {
+    margin-top: 200px;
+}
+
+.review .body {
+    display: flex;
+    /* width: 100%; */
+}
+
+.review .list-img {
+    display: flex;
+    width: 50%;
+    gap: 30px;
+}
+
+.review .images {
+    width: 270px;
+    /* width: 50%; */
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.review .images:first-child {
+    margin-top: 34px;
+}
+
+.review .info {
+    margin: 58px 0 0 130px;
+    width: 50%;
+}
+
+.review .heading {
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.review .desc,
+.review .info span {
+    display: block;
+    margin-top: 16px;
+    width: 458px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.review .btn {
+    margin-top: 32px;
+    width: 137px;
+    background: #ffb900;
+    border-radius: 26px;
+}
+
+.review-goals .body{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.review-goals .info {
+    margin: 0;
+}
+
+.review-goals .desc {
+    width: 570px;
+}
+
+.review.review-goals .images {
+    margin-left: 115px;
+    margin-top: 0;
+    /* width: 470px !important; */
+    height: 440px;
+    width: 100%;
 }
